@@ -1,4 +1,11 @@
 class Solution:
-    def lengthOfLastWord(self, s: str) -> int:
-        l=list(s.split())
-        return len(l[-1])
+    def lengthOfLastWord(self, jecha: str) -> int:
+        
+        List = jecha.split()
+        return len(List[-1])
+
+
+
+
+
+    
